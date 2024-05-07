@@ -1,0 +1,438 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.upper_nav h1{
+    Font-Family: Rubik;
+    font-Weight: 400;
+Color: #fff;
+Size: 12px;
+Line-height: 22px;
+}
+.navbar a{
+    font-Family: Rubik;
+   font-weight: 700;
+Color: black;
+Size: 15px;
+Line-Height: 90px;
+}
+.hero_section h1{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: rgb(255, 255, 255);
+    font-Size: 72px;
+    Line-Height: 72px;
+}
+.hero_section span{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #ddab6d;
+    font-Size: 72px;
+    Line-Height: 72px;
+}
+.hero_section h2{
+    font-Family: Rubik;
+    font-Weight: 400;
+    Color: #fff;
+    text-align: center;
+    font-Size: 19px;
+    Line-Height: 29px;
+}
+.hero_section{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(Imperial-ville-standard-elevation.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.highlights_section h1{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #37373d ;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.highlights_section span{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #1a5910;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.location h1{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #37373d ;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.location span{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #1a5910;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.specifications h1{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #fff ;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.specifications span{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #ddab6d;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.specifications h2{
+    font-Family: Rubik;
+    font-Weight: 400;
+    Color: #37373d;
+    text-align: center;
+    font-Size: 15px;
+    Line-Height: 27px;
+}
+.specifications h3{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: black ;
+    text-align: center;
+    font-Size: 18px;
+    Line-Height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.construction h1{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #37373d ;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.construction span{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #1a5910;
+    text-align: center;
+    font-Size: 44px;
+    Line-Height: 44px;
+}
+.contactform{
+background-image: url(Footer-Imperial-Ville.jpg);
+background-size: cover;
+background-position: bottom;
+background-repeat: no-repeat;
+
+}
+.contactform h1{
+    font-Family: Rubik;
+    font-Weight: 700;
+    Color: #fff ;
+    text-align: left;
+    font-Size: 28px;
+    Line-Height: 28px;
+}
+.contactform h2{
+    font-Family: Rubik;
+    font-Weight: 400;
+    Color: #fff;
+    text-align: left;
+    font-Size: 15px;
+    Line-Height: 27px;
+}
+.contactform h3{
+    font-Family: Rubik;
+    font-Weight: 500;
+    Color: #fff ;
+    text-align: left;
+    font-Size: 18px;
+    Line-Height: 25px;
+}
+.contactform h4{
+    font-Family: Rubik;
+    font-Weight: 400;
+    Color: #d6d6d6;
+    text-align: left;
+    font-Size: 15px;
+    Line-Height: 27px;
+}
+.contactform span{
+    font-Family: Rubik;
+    font-Weight: 400;
+    Color: #c09e66;
+    text-align: left;
+    font-Size: 15px;
+    Line-Height: 27px;
+}
+.footer a{
+    font-Family: Rubik;
+    font-Weight: 600;
+    Color: #37373d ;
+    text-align: center;
+    font-Size: 16px;
+    Line-Height: 32px;
+}
+.footer h3{
+    font-Family: Rubik;
+    font-Weight: 600;
+    Color: #37373d ;
+    text-align: left;
+    font-Size: 12px;
+    Line-Height: 12px;
+}
+.form_section label{
+    font-Family: Rubik;
+    font-Weight: 700;
+    Color: #000000d9;
+    text-align: left;
+    font-Size: 16px;
+    Line-Height: 19px;
+}
+.form_section .form1  span{
+    color: red;
+}
+.form_section .form1 .row1 .col2 span{
+    color: #7d867d;
+}
+.contactform button{
+    font-Family: Rubik;
+    font-Weight: 600;
+    Color: #fff;
+    text-align: left;
+    font-Size: 12px;
+    Line-Height: 12px; 
+}
+@media screen and (max-width: 640px)
+{
+
+    .upper_nav h1{
+        Font-Family: Rubik;
+        font-Weight: 400;
+    Color: #fff;
+    Size: 10px;
+    Line-height: 18px;
+    }
+    .navbar a{
+        font-Family: Rubik;
+       font-weight: 700;
+    Color: black;
+    Size: 12px;
+    Line-Height: 60px;
+    }
+    .hero_section h1{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: rgb(255, 255, 255);
+        font-Size: 52px;
+        Line-Height: 52px;
+    }
+    .hero_section span{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #ddab6d;
+        font-Size: 52px;
+        Line-Height: 52px;
+    }
+    .hero_section h2{
+        font-Family: Rubik;
+        font-Weight: 400;
+        Color: #fff;
+        text-align: center;
+        font-Size: 14px;
+        Line-Height: 24px;
+    }
+    .hero_section{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),url(Imperial-ville-standard-elevation.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .highlights_section h1{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #37373d ;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .highlights_section span{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #1a5910;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .location h1{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #37373d ;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .location span{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #1a5910;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .specifications h1{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #fff ;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .specifications span{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #ddab6d;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .specifications h2{
+        font-Family: Rubik;
+        font-Weight: 400;
+        Color: #37373d;
+        text-align: center;
+        font-Size: 12px;
+        Line-Height: 22px;
+    }
+    .specifications h3{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: black ;
+        text-align: center;
+        font-Size: 14px;
+        Line-Height: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .construction h1{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #37373d ;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .construction span{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #1a5910;
+        text-align: center;
+        font-Size: 36px;
+        Line-Height: 36px;
+    }
+    .contactform{
+    background-image: url(Footer-Imperial-Ville.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    }
+    .contactform h1{
+        font-Family: Rubik;
+        font-Weight: 700;
+        Color: #fff ;
+        text-align: left;
+        font-Size: 24px;
+        Line-Height: 24px;
+    }
+    .contactform h2{
+        font-Family: Rubik;
+        font-Weight: 400;
+        Color: #fff;
+        text-align: left;
+        font-Size: 12px;
+        Line-Height: 22px;
+    }
+    .contactform h3{
+        font-Family: Rubik;
+        font-Weight: 500;
+        Color: #fff ;
+        text-align: left;
+        font-Size: 12px;
+        Line-Height: 20px;
+    }
+    .contactform h4{
+        font-Family: Rubik;
+        font-Weight: 400;
+        Color: #d6d6d6;
+        text-align: left;
+        font-Size: 12px;
+        Line-Height: 22px;
+    }
+    .contactform span{
+        font-Family: Rubik;
+        font-Weight: 400;
+        Color: #c09e66;
+        text-align: left;
+        font-Size: 12px;
+        Line-Height: 22px;
+    }
+    .footer a{
+        font-Family: Rubik;
+        font-Weight: 600;
+        Color: #37373d ;
+        text-align: center;
+        font-Size: 12px;
+        Line-Height: 26px;
+    }
+    .footer h3{
+        font-Family: Rubik;
+        font-Weight: 600;
+        Color: #37373d ;
+        text-align: left;
+        font-Size: 10px;
+        Line-Height: 10px;
+    }
+    .form_section label{
+        font-Family: Rubik;
+        font-Weight: 700;
+        Color: #000000d9;
+        text-align: left;
+        font-Size: 12px;
+        Line-Height: 12px;
+    }
+}
+@media screen and (max-width:450px) {
+    .location .mapandimage .map iframe{
+        height: 200px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .location .mapandimage .map iframe{
+        height: 400px;
+    } 
+}
